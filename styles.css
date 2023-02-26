@@ -7,7 +7,7 @@
     justify-content: center;
 }
 body {
-    height:100%;
+    height:80vh;
 }
 ul a { 
     padding: 0px 20px;
@@ -69,7 +69,23 @@ footer {
 }
 
 /* BIO */
+#bio-wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+}
+.container-bio {
+    padding-right: 50px;
+}
+#bio-paragraph {
+    width: 300px;
+}
+#me {
+    height: 500px;
+    width: 100%;
 
+}
 
 
 /* CONTACT */
@@ -79,8 +95,8 @@ footer {
 #contact-wrapper { 
     display: flex;
     justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 422px;
+    padding-top: 150px;
+    padding-bottom: 480px;
 }
 .form-contact {
     margin-left: auto;
@@ -108,6 +124,7 @@ footer {
 
 /* BLOG */
 #blog-wrapper { 
+    padding-top: 50px;
     padding-left: 10%;
 }
 
@@ -125,4 +142,37 @@ pre {
     width: 80%;
     height: 500px;
     overflow: hidden;
+}
+
+/*MYWORK*/
+#mywork-wrapper { 
+    padding-top: 160px;
+    text-align: center;
+    height: 75vh;
+}
+table {
+    padding-top: 50px;
+    width: 500px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 100px 30px;
+}
+
+/* RESUME */
+#resume-wrapper { 
+    vertical-align: middle;
+    padding-top: 50px;
+    padding-left: 40%;
+    height: 85vh;
+}
+dl {
+    width: 500px;
+}
+dl dt {
+    font-weight: bold;
+}
+.resume-container {
+width: 30%;
 }
