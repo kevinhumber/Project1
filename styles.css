@@ -6,55 +6,123 @@
     display: flex;
     justify-content: center;
 }
-
+body {
+    height:100%;
+}
 ul a { 
     padding: 0px 20px;
     text-decoration: none;
     color: black;
+    
+}
+h2 {
+    color: #6265a3;
+}
+footer {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .wrapper { 
     width: 100%;
-    height: 100vh;
 }
 
 .panel { 
     position: fixed;
     right: 1%;
+    top: 40%;
     height: 100px;
     width: 50px;
 }
+
 .social-icons { 
-    padding-top: 7px;
+    padding-top: 10px;
 }
+
 
 /* HOME PAGE */
-#home-wrapper{
-    position:absolute;
-    top: 50%;
-    padding-left: 10%;
-}
+.background-div { 
+    display: flex;
+    justify-content: center;
+    padding: 175px;
 
+}
+.container-left {
+    position: absolute;
+    left: 18%;
+    top: 30%;
+
+}
+.container-right {
+    position: absolute;
+    left: 65%;
+    top: 65%;
+    
+}
+.font-purple{
+    font-weight: 700;
+    color: #6265a3;
+    
+}
+#list-skills {
+    list-style-type: none;
+}
 
 /* BIO */
 
-#blog-wrapper{
-    position:absolute;
-    top: 30%;
-    padding-left: 10%;
-}
+
 
 /* CONTACT */
-#inquiry-paragraph { 
-    
+#inquiry-paragraph {  
     text-align: center;
 }
+#contact-wrapper { 
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 422px;
+}
+.form-contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+    padding: 20px;
 
-form { 
-   
-    text-align: center;
 }
 
 .form-input {
-   
+    width: 200px;
+}
+.form-button { 
+    width: 210px;
+}
+.form-inquiry {
+    height: 200px;  
+    width: 200px;
+    resize: none; 
+}
+#checkbox-label {
+    color: grey;
+}
+
+
+/* BLOG */
+#blog-wrapper { 
+    padding-left: 10%;
+}
+
+.paragraph {
+    width: 80%;
+}
+
+pre { 
+    display: flex;
+    justify-content: center;
+}
+
+.banner{ 
+    position: relative;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
 }

@@ -7,10 +7,11 @@
     <title>Kevin Ma</title>
     <link rel ="stylesheet" href="styles.css">
 </head>
+<header>
+    <h2>KEVIN MA</h2>
+</header>
 <body>
-    <header>
-        <h2>KEVIN MA</h2>
-    </header>
+ 
     <div class="navbar">
         <ul id ="links">
             <li><a href ="home.html">Home</a></li>
@@ -21,30 +22,36 @@
             <li><a href ="contact.html">Contact</a></li>
         </ul>
     </div>
-    <div class="contact-wrapper">
-        <div class="panel" id ="social-media">
+    <div class="panel" id ="social-media">
             
-            <a href ="https://github.com/kevinhumber"><img class ="social-icons" src ="images/Github_black.png" height="30px" width="30px"></a>
-            <a href = "https://discord.gg/8eudfZtsWt"><img class ="social-icons" src ="images/Discord_black.png" height="30px" width="30px"></a>
-            <a href ="https://www.instagram.com/abg_kev/"><img class ="social-icons" src ="images/Instagram_black.png" height="30px" width="30px"></a> 
-            
-        </div>
-
-        <p id = "inquiry-paragraph"> Want to have a chat or ask any questions about my work?</p>
-       <form>
-            <label for ="name">Name</label>
-            <input class ="form-input" type="text" id ="name">
+        <a href ="https://github.com/kevinhumber"><img class ="social-icons" src ="images/Github_black.png" height="30px" width="30px"></a>
+        <a href = "https://discord.gg/8eudfZtsWt"><img class ="social-icons" src ="images/Discord_black.png" height="30px" width="30px"></a>
+        <a href ="https://www.instagram.com/abg_kev/"><img class ="social-icons" src ="images/Instagram_black.png" height="30px" width="30px"></a> 
+        
+    </div>
+    <div class="wrapper" id ="contact-wrapper">
+        
+       
+        <form class ="form-contact">
+            <p id = "inquiry-paragraph"> Want to chat?</p>
+            <label for ="name">Name</label><br>
+            <input class ="form-input" type="text" id ="name"><br>
             <br>
-            <label for ="email">Email</label>
-            <input class ="form-input" type="text" id ="email">
+            <label for ="email">Email</label><br>
+            <input class ="form-input" type="text" id ="email"><br>
             <br>
-            <label for = "inquiry">Inquiry</label>
-            <textarea class ="form-input" id = "inquiry"></textarea>
+            <label class = "form-inquiry" for ="inquiry">Inquiry</label><br>
+            <textarea class ="form-inquiry"></textarea><br>
+            <br>  
+            <input type="checkbox" id ="checkbox-join">
+            <label for ="checkbox-join" id ="checkbox-label">Get emails about my upcoming projects!</label>
+            <br>
+            <br>
+            <input class ="form-button" type ="button" value="Submit">
        </form>
     </div>
 
-    <footer>
-
-    </footer>
+   
 </body>
+<footer>Copyright © 2023 Kevin Ma</footer>
 </html>
