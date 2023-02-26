@@ -1,0 +1,178 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+#links { 
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+body {
+    height:80vh;
+}
+ul a { 
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+h2 {
+    color: #6265a3;
+}
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.wrapper { 
+    width: 100%;
+}
+
+.panel { 
+    position: fixed;
+    right: 1%;
+    top: 40%;
+    height: 100px;
+    width: 50px;
+}
+
+.social-icons { 
+    padding-top: 10px;
+}
+
+
+/* HOME PAGE */
+.background-div { 
+    display: flex;
+    justify-content: center;
+    padding: 175px;
+
+}
+.container-left {
+    position: absolute;
+    left: 18%;
+    top: 30%;
+
+}
+.container-right {
+    position: absolute;
+    left: 65%;
+    top: 65%;
+    
+}
+.font-purple{
+    font-weight: 700;
+    color: #6265a3;
+    
+}
+#list-skills {
+    list-style-type: none;
+}
+
+/* BIO */
+#bio-wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+}
+.container-bio {
+    padding-right: 50px;
+}
+#bio-paragraph {
+    width: 300px;
+}
+#me {
+    height: 500px;
+    width: 100%;
+
+}
+
+
+/* CONTACT */
+#inquiry-paragraph {  
+    text-align: center;
+}
+#contact-wrapper { 
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 480px;
+}
+.form-contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+    padding: 20px;
+
+}
+
+.form-input {
+    width: 200px;
+}
+.form-button { 
+    width: 210px;
+}
+.form-inquiry {
+    height: 200px;  
+    width: 200px;
+    resize: none; 
+}
+#checkbox-label {
+    color: grey;
+}
+
+
+/* BLOG */
+#blog-wrapper { 
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+.paragraph {
+    width: 80%;
+}
+
+pre { 
+    display: flex;
+    justify-content: center;
+}
+
+.banner{ 
+    position: relative;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+}
+
+/*MYWORK*/
+#mywork-wrapper { 
+    padding-top: 160px;
+    text-align: center;
+    height: 75vh;
+}
+table {
+    padding-top: 50px;
+    width: 500px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 100px 30px;
+}
+
+/* RESUME */
+#resume-wrapper { 
+    vertical-align: middle;
+    padding-top: 50px;
+    padding-left: 40%;
+    height: 85vh;
+}
+dl {
+    width: 500px;
+}
+dl dt {
+    font-weight: bold;
+}
+.resume-container {
+width: 30%;
+}
